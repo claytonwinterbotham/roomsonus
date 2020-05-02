@@ -1,0 +1,9 @@
+[[redirects]]
+    from = "/search/*"
+    to = "/search"
+    status = 200
+
+[[redirects]]
+    from = "/listing/*"
+    to = "/listing"
+    status = 200

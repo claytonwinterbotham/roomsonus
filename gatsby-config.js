@@ -1,11 +1,18 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`
+})
+
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Rooms On Us`,
+    description: `Rooms On Us`,
     author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-typescript`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,6 +34,25 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-web-font-loader`,
+      options: {
+          custom: {
+              families: [`VisbyRoundCF`],
+              urls: [`/fonts/fonts.css`]
+          }
+      }
+    },
+    {
+      resolve: 'gatsby-transformer-cloudinary',
+      options: {
+          cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+          apiKey: process.env.CLOUDINARY_API_KEY,
+          apiSecret: process.env.CLOUDINARY_API_SECRET,
+          uploadFolder: 'roomsonus'
+      }
+    },  
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
