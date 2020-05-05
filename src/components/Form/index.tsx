@@ -96,9 +96,6 @@ export const Form: React.FunctionComponent<FormProps> = ({
                 ...newValues
             }
         })
-
-        console.log('errors', errors)
-        console.log('values', validValues)
     }
 
 
@@ -152,7 +149,7 @@ export const Form: React.FunctionComponent<FormProps> = ({
                 //"fbDE_phone": 7785525741
             }
             console.log("fdDE",fdDE_detail)
-            //fbDERedeemVacation(fdDE_detail, errors, setErrors, setLoading)
+            fbDERedeemVacation(fdDE_detail, errors, setErrors, setLoading)
             navigate("success/")
         }
     }

@@ -27,7 +27,9 @@ export const FAQGridItem = styled.div`
 
 export const FAQTitle = styled.h1`
     text-align: center;
-    color: #1e874b;
+    color: #e67e22;
+    text-decoration: underline;
+    margin-bottom: 20px;
 `
 
 export const FAQHeading = styled.h2`

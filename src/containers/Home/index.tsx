@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { Hero, HeroContent, HeroOverlay } from './Home.style'
+import { Hero, HeroContent, HeroOverlay, UnderlineParent, Underline } from './Home.style'
 
 interface HomeProps {
 
@@ -26,7 +26,12 @@ export const Home: React.FunctionComponent<HomeProps> = () => {
             >
                 <HeroOverlay />
                 <HeroContent>
-                    <h1>Compimentary Vacation Stays, With <span>No Catch!</span></h1>
+                    <h1><span>Compimentary</span> Vacation Stays, With { ' ' } 
+                        <UnderlineParent>
+                            <span>No Catch!</span>
+                            <Underline></Underline>
+                        </UnderlineParent>
+                    </h1>
                 </HeroContent>              
            </Hero>
        </Fragment>

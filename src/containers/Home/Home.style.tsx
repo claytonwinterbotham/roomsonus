@@ -23,11 +23,23 @@ export const HeroContent = styled.div`
         font-size: 60px;
         line-height: 1.4;
         font-weight: 700;
-        & > span {
-            border-bottom: 10px solid #e74c3c;
-        }
     }
     z-index: 999;
+`
+
+export const UnderlineParent = styled.div`
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    & > span {
+        margin-bottom: -5px;
+    }
+`
+
+export const Underline = styled.div`
+    height: 9px;
+    background: #e74c3c;
+    border-radius: 8px;
 `
 
 export const HeroOverlay = styled.div`
@@ -36,6 +48,6 @@ export const HeroOverlay = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.2);
 `
 

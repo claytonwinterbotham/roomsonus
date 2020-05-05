@@ -10,25 +10,37 @@ import HeaderWrapper, {
 import LogoImage from '../../images/roomsonuslogo.svg'
 
 type NavbarProps = {
-    className?: string
+    className?: string,
 }
 
 const MenuItems = [
     {
         label: 'Home',
         url: '/',
-        external: false
+        external: false,
+    },
+    {
+        label: 'How it Works',
+        url: '/#how',
+        hash: '#how',
+        external: false,
+        anchor: true
+    },
+    {
+        label: 'FAQ',
+        url: '/#faq',
+        hash: '#faq',
+        external: false,
+        anchor: true
     },
     {
         label: 'Search',
         url: '/search',
-        external: false
+        external: false,
+        anchor: false
     },
-    {
-        label: 'How it Works',
-        url: '/how-it-works',
-        external: false
-    }
+    
+    
 ]
 
 const Navbar: React.FunctionComponent<NavbarProps> = ({

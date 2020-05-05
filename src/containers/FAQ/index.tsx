@@ -11,7 +11,7 @@ export const FAQ: React.FunctionComponent<FAQProps> = ({
     
 }) => {
     return(
-        <FAQSection>
+        <FAQSection id="faq">
             <FAQTitle>FAQ's</FAQTitle>  
             <FAQGrid>
                 <FAQGridItem id="w-node-dcdd2f19567c-60baa390">

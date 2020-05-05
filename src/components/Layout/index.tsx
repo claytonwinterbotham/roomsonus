@@ -10,7 +10,7 @@ import useSiteMetadata from '../../Hooks/use-sitemetadata'
 
 
 type LayoutProps = {
-  children: React.ReactNode
+  children: React.ReactNode,
 }
 
 export const Layout: React.FunctionComponent<LayoutProps> = ({ children }) => {

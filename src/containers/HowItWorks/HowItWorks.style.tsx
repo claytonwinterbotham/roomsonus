@@ -151,6 +151,12 @@ export const VoucherWrap = styled.div`
     -ms-flex-align: start;
     align-items: flex-start;
 `
+export const HIWTitle = styled.h1`
+    text-align: center;
+    color: #e67e22;
+    text-decoration: underline;
+    margin-bottom: 50px;
+`
 
 export const HIWHeading = styled.h2`
     -webkit-align-self: auto;

@@ -8,7 +8,7 @@ export default ( props ) => {
     return (
         <Layout>
             <Container>
-                <HowItWorks />
+                <HowItWorks/>
                 <FAQ />
             </Container>
         </Layout>
