@@ -5,7 +5,6 @@ import { ModalForm, ErrorMessage, SubmitButton } from './Form.style'
 import Loader from 'react-loader-spinner'
 import ReCAPTCHA from "react-google-recaptcha"
 import { fbDERedeemVacation } from '../../lib/MarketingBoostAPI'
-import { Test } from './test'
 
 type FormProps = {
     destination: any
@@ -221,7 +220,6 @@ export const Form: React.FunctionComponent<FormProps> = ({
                 onChange={onResolved}
                 onErrored={handleError}
             />
-            <Test test={errors} />
         </ModalForm>
     )
 }
