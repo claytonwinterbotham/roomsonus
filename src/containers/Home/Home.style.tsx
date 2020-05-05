@@ -8,7 +8,6 @@ export const Hero = styled(BackgroundImage)`
     background-position: bottom center;
     background-repeat: repeat-y;
     background-size: cover;
-    background-color: #fff200;
     display: flex;
     align-items: center;
 
