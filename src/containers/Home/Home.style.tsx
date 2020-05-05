@@ -10,6 +10,7 @@ export const Hero = styled(BackgroundImage)`
     background-size: cover;
     display: flex;
     align-items: center;
+    background-color: #81ecec;
 
 `
 
