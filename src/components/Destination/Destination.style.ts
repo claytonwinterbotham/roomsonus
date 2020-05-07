@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const DestinationWrapper = styled.div`
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 767px){
+        flex-direction: column;
+    }
 `
 
 export const DestinationContentWrapper = styled.div`
@@ -33,11 +36,22 @@ export const DestinationContentWrapper = styled.div`
             }
         }
     }
+    @media screen and (max-width: 767px){
+        width: 90%;
+        margin: 0 auto;
+    }
 `
 export const DestinationImageWrapper = styled.div`
     margin-right: 50px;
+    max-width: 525px;
+    height: 295px;
     & > div {
         border-radius: 8px;
+    }
+    @media screen and (max-width: 767px){
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 25px;
     }
 `
 

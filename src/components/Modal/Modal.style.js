@@ -26,6 +26,10 @@ export const ModalMainWrapper = styled.div`
     border: 3px solid #333;
     padding: 30px;
     overflow: hidden;
+
+    @media screen and (max-width: 767px){
+        width: 90%;
+    }
 `
 export const ModalHeader = styled.div`
     margin: 25px 40px;

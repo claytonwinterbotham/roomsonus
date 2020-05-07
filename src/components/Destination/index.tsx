@@ -27,8 +27,8 @@ export const Destination: React.FunctionComponent<DestinationProps> = ({
                 <Img
                     cloudName={'dy3c6sc72'}
                     imageName={destination.imageName}
-                    fixed={{
-                        width: 525,
+                    fluid={{
+                        maxWidth: 525,
                         height: 295
                     }}
                     urlParams={'g_face,c_lfill'}
