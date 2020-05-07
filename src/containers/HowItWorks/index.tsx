@@ -21,13 +21,13 @@ export const HowItWorks: React.FunctionComponent<HowItWorksProps> = ({
                     <HIWHeading >IF you like to Travel on a Budget...</HIWHeading><HIWImage src={piggyBank} alt=""/>
                 </HIWGridItem>
                 <HIWGridItem calendar={true}>
-                    <HIWHeading>AND you can can travel on the dates we have available...</HIWHeading>
+                    <HIWHeading>AND you are willing to travel around the dates we have available...</HIWHeading>
                     <HIWParagraph>And you think paying a small Activation Fee averaging $20 per night to cover Taxes and Booking Fees is Fair and Reasonable...</HIWParagraph>
                     <HIWImage src={calendar} alt="" />
                 </HIWGridItem>
                 <HIWGridItem voucher={true}>
                     <VoucherWrap>
-                        <HIWHeading>THEN we will send you a Gift Certificate for a Complimentary Stay of your choice.</HIWHeading>
+                        <HIWHeading>THEN we will send you a Gift Certificate for a Complimentary Stay of your choice, with no presentations required.</HIWHeading>
                         <HIWParagraph>The ROOM is on US! You can save Hundreds to Thousands of Dollars! Choose from one of the 50 Destinations below...</HIWParagraph>
                         <HIWImage src={giftVoucher} alt="" /><HIWCTA id="search" to="/search/">Search</HIWCTA>
                     </VoucherWrap>

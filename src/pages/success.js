@@ -1,9 +1,21 @@
 import React from 'react'
+import { useStaticQuery } from 'gatsby'
+import Img from 'gatsby-image'
 import { Layout } from '../components'
-import suitecases from '../images/suitcases.svg'
 import { Container } from '../containers'
 
 export default ( props ) => {
+    const data = useStaticQuery(graphql`
+        query {
+            image: file(name: {eq: "suitcases"}) {
+                cloudinary: childCloudinaryAsset {
+                    fluid(maxWidth: 500){
+                      ...CloudinaryAssetFluid
+                    }
+                }
+            }
+        }
+    `)
     
     return (
         <Layout>
@@ -22,7 +34,9 @@ export default ( props ) => {
                     
                     }}
                 >
-                    <img src={suitecases} />
+                <Img 
+                    fluid={data.image.cloudinary.fluid}
+                />
                 </div>
             </Container>
         </Layout>

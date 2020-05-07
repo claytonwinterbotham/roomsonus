@@ -29,7 +29,7 @@ export const FAQ: React.FunctionComponent<FAQProps> = ({
                 <FAQGridItem id="w-node-db3d698eac24-60baa390">
                     <FAQHeading>Any Catch?</FAQHeading>
                     <FAQParagraph>
-                        In return, you accept some limitations on the dates when you can stay, weekends might cost a small surcharge IF they are available, you must Activate your certificate within SEVEN days of receiving it,you have 18 months to Book your stay after Activation, and you must give them 30 Days Advance Booking.
+                        In return, you accept some limitations on the dates when you can stay, weekends might cost a small surcharge IF they are available, you must Activate your certificate within SEVEN days of receiving it,you have 24 months to Book your stay after Activation, and you must give them 30 Days Advance Booking.
                     </FAQParagraph>
                 </FAQGridItem>
                 <FAQGridItem id="w-node-a7ba19da3fd5-60baa390">
@@ -41,7 +41,7 @@ export const FAQ: React.FunctionComponent<FAQProps> = ({
                 <FAQGridItem id="w-node-a7ba19da3fda-60baa390">
                     <FAQHeading>Other Deals?</FAQHeading>
                     <FAQParagraph>
-                        If you are interested in Mexican Resorts which offer &quot;All-Inclusive&quot; packages including Food and Drinks for a small Upgrade fee, please let us know. There are also special packages available for Las Vegas, where Resort Fees and the 30-Day Advanced Booking requirements can be waived, and $100 in Casino Chips are provided as a Gift. Ask us about these by email.
+                        If you are interested in Mexican Resorts which offer &quot;All-Inclusive&quot; packages including Food and Drinks for a small Upgrade fee, please let us know. We have access to some truly amazing deals which we do not advertise on this site because they usually require attendance at a Presentation promoting Timeshare Sales. There are similar special packages available for Las Vegas, where Resort Fees and the 30-Day Advanced Booking requirements can be waived, and $100 in Casino Chips are provided as a Gift, if you are willing to trade an hour or two of time for steep discounts.  Ask us about these by email.
                     </FAQParagraph>
                 </FAQGridItem>
                 <FAQGridItem id="w-node-a7ba19da3fdf-60baa390">
