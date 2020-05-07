@@ -1,10 +1,18 @@
 import styled from 'styled-components';
 
 export const SearchWrapper = styled.div`
-    width: 40%;
+    width: 50%;
     margin-bottom: 60px;
     margin-right: auto;
     margin-left: auto;
+
+    @media screen and (max-width: 767px) {
+        width: 70%;
+    }
+
+    @media screen and (max-width: 479px){
+        width: 90%;
+    }
 `
 
 export const StyledSearchInput = styled.input`

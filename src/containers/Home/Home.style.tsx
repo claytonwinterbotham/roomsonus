@@ -25,6 +25,26 @@ export const HeroContent = styled.div`
         font-weight: 700;
     }
     z-index: 999;
+
+    @media screen and (max-width: 767px) {
+        width: 90%;
+        & > h1 {
+            text-align: center;
+            font-size: 50px;
+            line-height: 1.4;
+            font-weight: 700;
+        }
+    }
+
+    @media screen and (max-width: 479px){
+        width: 95%;
+        & > h1 {
+            text-align: center;
+            font-size: 40px;
+            line-height: 1.4;
+            font-weight: 700;
+        }
+    }
 `
 
 export const UnderlineParent = styled.div`
